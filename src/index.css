@@ -1,0 +1,231 @@
+.custom-navbar {
+    background-color: #2c3e50;
+    /* font-family:system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; */
+}
+.custom-navbar .nav-link {
+    margin-right: 20px; /* مسافة أكبر */
+}
+.active{
+   background-color:#1abc9c  !important ; 
+   border-radius: 7px !important;
+}
+.about-container {
+    background-color: #1abc9c; 
+    height: 97vh;  /* تقليل الارتفاع */
+    margin: 0; 
+  }
+  
+  .about-section {
+    background-color: #1abc9c;
+    height: 97vh;  /* تقليل الارتفاع */
+    padding: 20px 0;
+    padding-top: 100px;
+  }
+  
+  
+  .about-line {
+    width: 70px;
+    height: 5px;
+    background-color: white;
+  }
+  
+  h2 {
+    font-size: 2.5rem; 
+  }
+  
+  p {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  .SubFooter {
+    background-color: #2c3e50 !important; 
+    padding: 70px 0; 
+    font-size: 1.25rem;  
+  }
+  
+  
+  .SubFooter .btn-social {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* جعل الأزرار دائرية */
+    font-size: 1.25rem; /* حجم الأيقونات */
+  }
+  .footer {
+    background-color: #1a252f !important;
+  }
+  
+
+.contact-section {
+    background-color: white; /* اللون الأبيض */
+    padding: 120px 0; /* إضافة بعض الـ padding لتوسيع المسافات */
+  }
+  
+  .contact-section .about-line{
+    background-color:#1a252f;
+  
+  }
+  .contact-form .form-control {
+    border-radius: 0;
+  }
+  
+  .contact-form .form-control.border-bottom {
+    border: none;
+    border-bottom: 2px solid #1abc9c;
+    margin-bottom: 15px;
+  }
+  
+  .contact-form .input-center {
+    border-left: none;  
+    border-right: none; 
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .contact-form .btn-send-message {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 5px;
+    float: left; 
+    margin-left: 250px; 
+  }
+  
+  
+  .contact-form .btn-send-message:hover {
+    background-color: #1abc9c;
+    color: white;
+  }
+  .contact-form .form-control {
+    font-size: 14px; 
+    padding: 10px 12px; 
+    width: 60%; 
+    border-radius: 0; 
+    margin: 0 auto; 
+  }
+  
+  .contact-form .form-control.border-bottom {
+    border: none;
+    border-bottom: 2px solid #1abc9c; 
+    margin-bottom: 15px; 
+  }
+  
+ 
+ 
+.contact-form .form-control:focus {
+  box-shadow: none;
+  border-color: #1abc9c; 
+}
+
+
+
+.portfolio-title {
+  color: #2c3e50;
+}
+
+/* تخصيص الصورة في المكون */
+.portfolio-img {
+  max-height: 250px;
+  border-radius:50px;
+  margin-bottom: 20px;
+
+}
+
+.bg-port1 {
+  background-color: #ba4c63;
+}
+
+.bg-port2 {
+  background-color: #3DA4AB;
+}
+
+.bg-port3 {
+  background-color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+.portfolio-title {
+  color: #2c3e50;
+  font-size: 3rem; /* تغيير الحجم لتناسب التصميم */
+  font-weight: bold;
+
+}
+
+.card {
+  border: none; 
+  border-radius: 15px; 
+  position: relative; 
+  overflow: hidden; 
+  transition: transform 0.3s ease; 
+  transition: 1s;
+}
+
+
+.portfolio-img {
+  border-radius: 15px; 
+  width: 100%; 
+  object-fit: cover; 
+}
+
+
+.card:hover::before {
+  content: "+"; /* علامة الجمع */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 50px; /* حجم الأيقونة */
+  color: white; /* لون الأيقونة */
+  background-color: #1abc9c; /* لون خلفية الطبقة */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px; /* حواف مدورة للطبقة */
+  opacity: 0; /* تعيين الشفافية في البداية */
+  transform: scale(0); /* تصغير الطبقة إلى الصفر */
+  transition: opacity 0.4s ease, transform 0.4s ease; /* إضافة تأثيرات الانزلاق */
+  z-index: 10; 
+ 
+}
+.card:hover::before {
+  opacity: 0.8; 
+  transform: scale(1); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
