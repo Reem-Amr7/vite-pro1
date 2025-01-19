@@ -11,6 +11,7 @@ let routes=createBrowserRouter([{
     {path:"about", element:<About/>},
     {path:"portfolio", element:<Protofolio/>},
     {path:"contacts", element:<Contacts/>},
+    {path:"vite-pro1", element:<About/>},
   
   ]
 }])
